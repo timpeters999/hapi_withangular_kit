@@ -39,7 +39,7 @@ var routes = [
                 message: handlers.getAboutMessage
             };
 
-            return reply.view('index', data);
+            return reply.view('about', data);
         }
     },
     {//here we want to return a view from a custom handler

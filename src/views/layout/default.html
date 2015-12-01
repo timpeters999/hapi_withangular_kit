@@ -8,13 +8,13 @@
 	<link rel="stylesheet" href="/css/bootstrap.min.css" />
     <link rel="stylesheet" href="/css/site.css" />
 </head>  
-<body>
+<body ng-app="ThisApp">
 
     <div style="margin-top:75px" class="container">
 
         {{! adding header.html}}
         {{> header}}
-
+            
         {{! adding the view itself }}
         {{{content}}}
 
