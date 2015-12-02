@@ -1,3 +1,4 @@
+//this will add AboutController to the ThisApp angular app.
 (function () {
     'use strict';
  

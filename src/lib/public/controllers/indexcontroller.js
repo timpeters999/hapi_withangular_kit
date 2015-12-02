@@ -1,3 +1,4 @@
+//this will add IndexController to the ThisApp angular app.
 (function () {
     'use strict';
  
