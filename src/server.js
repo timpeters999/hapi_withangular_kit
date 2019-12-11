@@ -15,7 +15,7 @@ server.connection({
 //https://www.npmjs.com/package/vision
 server.register(require('vision'), function (err) {
     if (err) {
-        console.log("Failed to load vision.");
+        console.log("Failed to load vision2.");
     }
 	
 	server.views({
